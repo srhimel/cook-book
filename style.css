@@ -27,6 +27,10 @@ h3 {
     font-size: 28px;
 }
 
+p {
+    font-size: 18px;
+}
+
 .d-flex {
     display: flex;
 }
@@ -37,6 +41,10 @@ h3 {
 
 .ml-auto {
     margin-left: auto;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .blue-text {
@@ -100,7 +108,8 @@ h3 {
 }
 
 .hero {
-    padding: 50px 0;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 .hero h4 {
@@ -127,6 +136,37 @@ h3 {
 
 .about-text p {
     line-height: 32px;
-    font-size: 18px;
     margin-bottom: 80px;
+}
+
+.recipie {
+    padding: 70px 0;
+}
+
+.recipie .sub-title {
+    max-width: 800px;
+    line-height: 30px;
+    margin: auto;
+}
+
+.recipie .card {
+    width: 30%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px rgb(223, 222, 222);
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.recipie .d-flex {
+    justify-content: space-between;
+}
+
+.recipie .card img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.recipie .card p {
+    line-height: 30px;
 }
